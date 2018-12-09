@@ -14,6 +14,7 @@ let getUsuarioById = (iduser, callback) => {
 }
 
 getUsuarioById(15, (err, data)=>{
+
     if(err){
         return console.log(err);
     }
