@@ -13,10 +13,10 @@ let getUsuarioById = (iduser, callback) => {
     }
 }
 
-getUsuarioById(15, (err, usuario)=>{
+getUsuarioById(15, (err, data)=>{
     if(err){
         return console.log(err);
     }
 
-    console.log("Usario en base de datos: ", usuario);
+    console.log("Info en base de datos: ", data);
 });
