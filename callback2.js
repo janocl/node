@@ -35,7 +35,6 @@ let getEmpleado = (id, callback) => {
 // });
 
 // Funcion que obtiene el salario por usuario
-// No se encontro un salario para Andres
 let getSalario = (empleado, callback) => {
     let empleadoEncontrado = empleados.find( e => e.nombre === empleado);
     if(!empleadoEncontrado){
