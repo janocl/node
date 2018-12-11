@@ -58,11 +58,11 @@ let getSalario = (empleado) => {
     });
 }
 
-getEmpleado(2).then( empleado => {
+getEmpleado(1).then( empleado => {
     //console.log('Empleado de DB', empleado);
     getSalario(empleado).then( empleado => {
 
-            console.log(`Datos encontrados de ${empleado.nombre}: `, empleado);
+            console.log(`El salario de ${empleado.nombre}: es de: $${empleado.salario}.-`);
 
         }, (err) => console.log(err))
 
