@@ -17,11 +17,11 @@ let crearArchivo = (base) => {
                 resolv(`tabla-${base}.txt`)
 
         });
-        
+
     })
 
 }
 
-module.exports{
+module.exports = {
     crearArchivo
 }
